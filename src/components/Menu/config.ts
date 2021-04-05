@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://www.bourbondefi.com/',
   },
   {
     label: 'Trade',
@@ -23,10 +23,20 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
+    href: 'https://www.bourbondefi.com/farms',
+  },
+  {
+    label: 'Rare Farms',
+    icon: 'FarmIcon',
     href: '/farms',
   },
   {
     label: 'Distillery',
+    icon: 'PoolIcon',
+    href: 'https://www.bourbondefi.com/nests',
+  },
+  {
+    label: 'Rare Distillery',
     icon: 'PoolIcon',
     href: '/nests',
   },
