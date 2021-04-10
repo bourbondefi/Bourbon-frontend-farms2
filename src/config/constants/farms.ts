@@ -132,6 +132,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 8,
+    risk: 3,
+    lpSymbol: 'SWAMP-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa823C74dE2343E922ab24520f29D08390B4e894D', // SWAMP-BNB LP
+    },
+    tokenSymbol: 'SWAMP',
+    tokenAddresses: {
+      97: '',
+      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 
 ]
 
