@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'RBT-DOT LP',
     lpAddresses: {
       97: '',
-      56: '0x225E127B3079a32147F51dcCA8a9b22f6A796448', // RBT-INJ LP
+      56: '0x225E127B3079a32147F51dcCA8a9b22f6A796448', // RBT-DOT LP
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'RBT-LINK LP',
     lpAddresses: {
       97: '',
-      56: '0x6a7f570946c25cbcc8d0fcd1f0c8db1ff6ff66bf', // RBT-INJ LP
+      56: '0x6a7f570946c25cbcc8d0fcd1f0c8db1ff6ff66bf', // RBT-LINK LP
     },
     tokenSymbol: 'LINK',
     tokenAddresses: {
@@ -196,7 +196,38 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.RBT,
     quoteTokenAdresses: contracts.rbt,
   },
-
+//  {
+//    pid: 12,
+//    risk: 3,
+//    lpSymbol: 'RBT-SQUIRE LP',
+//   lpAddresses: {
+//      97: '',
+//      56: '0xf61525267C93265d8573fB5a57B9f2CfEa817214', // RBT-SQUIRE LP
+//    },
+//    tokenSymbol: 'SQUIRE',
+ //   tokenAddresses: {
+ //     97: '',
+ //     56: '0x2f0d21f1b84f03fb9d60004fc206c86be6902a32',
+ //   },
+ //   quoteTokenSymbol: QuoteToken.RBT,
+ //   quoteTokenAdresses: contracts.rbt,
+ // },
+  {
+    pid: 13,
+    risk: 3,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+     97: '',
+      56: '0x70D8929d04b60Af4fb9B58713eBcf18765aDE422', // ETH-BNB LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+     97: '',
+     56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 ]
 
 export default farms
