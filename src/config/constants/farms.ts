@@ -164,6 +164,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.RBT,
     quoteTokenAdresses: contracts.rbt,
   },
+  {
+    pid: 10,
+    risk: 3,
+    lpSymbol: 'RBT-DOT LP',
+    lpAddresses: {
+      97: '',
+      56: '0x225E127B3079a32147F51dcCA8a9b22f6A796448', // RBT-INJ LP
+    },
+    tokenSymbol: 'DOT',
+    tokenAddresses: {
+      97: '',
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+    },
+    quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
 
 ]
 
