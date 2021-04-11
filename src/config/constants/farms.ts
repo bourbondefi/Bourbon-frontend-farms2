@@ -180,6 +180,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.RBT,
     quoteTokenAdresses: contracts.rbt,
   },
+  {
+    pid: 11,
+    risk: 3,
+    lpSymbol: 'RBT-LINK LP',
+    lpAddresses: {
+      97: '',
+      56: '0x6a7f570946c25cbcc8d0fcd1f0c8db1ff6ff66bf', // RBT-INJ LP
+    },
+    tokenSymbol: 'LINK',
+    tokenAddresses: {
+      97: '',
+      56: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+    },
+    quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
 
 ]
 
