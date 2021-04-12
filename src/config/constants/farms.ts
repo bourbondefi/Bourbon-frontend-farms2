@@ -196,22 +196,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.RBT,
     quoteTokenAdresses: contracts.rbt,
   },
-//  {
-//    pid: 12,
-//    risk: 3,
-//    lpSymbol: 'RBT-SQUIRE LP',
-//   lpAddresses: {
-//      97: '',
-//      56: '0xf61525267C93265d8573fB5a57B9f2CfEa817214', // RBT-SQUIRE LP
-//    },
-//    tokenSymbol: 'SQUIRE',
- //   tokenAddresses: {
- //     97: '',
- //     56: '0x2f0d21f1b84f03fb9d60004fc206c86be6902a32',
- //   },
- //   quoteTokenSymbol: QuoteToken.RBT,
- //   quoteTokenAdresses: contracts.rbt,
- // },
+  {
+    pid: 12,
+    risk: 3,
+    lpSymbol: 'RBT-SQUIRE LP',
+   lpAddresses: {
+      97: '',
+      56: '0xf61525267C93265d8573fB5a57B9f2CfEa817214', // RBT-SQUIRE LP
+    },
+    tokenSymbol: 'SQUIRE',
+    tokenAddresses: {
+      97: '',
+      56: '0x2f0d21f1b84f03fb9d60004fc206c86be6902a32',
+    },
+    quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
   {
     pid: 13,
     risk: 3,
