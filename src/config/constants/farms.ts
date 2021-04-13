@@ -228,6 +228,70 @@ const farms: FarmConfig[] = [
    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 14,
+    risk: 3,
+    lpSymbol: 'RBT-ADA LP',
+    lpAddresses: {
+     97: '',
+      56: '0x2331beb6dc11de0d745a8cf6c53afc35167a8bf1', // RBT-ADA LP
+    },
+    tokenSymbol: 'ADA',
+    tokenAddresses: {
+     97: '',
+     56: '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47',
+   },
+   quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
+  {
+    pid: 15,
+    risk: 3,
+    lpSymbol: 'RBT-CAKE LP',
+    lpAddresses: {
+     97: '',
+      56: '0x5ac20128b14debed0abacf46a7e78b90bc99b0d8', // RBT-CAKE LP
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+     97: '',
+     56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+   },
+   quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
+  {
+    pid: 16,
+    risk: 3,
+    lpSymbol: 'RBT-ELGD LP',
+    lpAddresses: {
+     97: '',
+      56: '0x08a0960405dbb44b38d1b8f34fb802ec601af63b', // RBT-ELGD LP
+    },
+    tokenSymbol: 'ELGD',
+    tokenAddresses: {
+     97: '',
+     56: '0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe',
+   },
+   quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
+  {
+    pid: 17,
+    risk: 3,
+    lpSymbol: 'RBT-FIL LP',
+    lpAddresses: {
+     97: '',
+      56: '0xe508545ecdffa06f2fc38befe0a941effa44c20b', // RBT-FIL LP
+    },
+    tokenSymbol: 'FIL',
+    tokenAddresses: {
+     97: '',
+     56: '0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153',
+   },
+   quoteTokenSymbol: QuoteToken.RBT,
+    quoteTokenAdresses: contracts.rbt,
+  },
 ]
 
 export default farms
