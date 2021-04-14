@@ -316,12 +316,29 @@ const farms: FarmConfig[] = [
     lpSymbol: 'XRP',
     lpAddresses: {
      97: '',
-      56: '0xba51d1ab95756ca4eab8737ecd450cd8f05384cf', // XRP-BNB
+      56: '0xc7b4b32a3be2cb6572a1c9959401f832ce47a6d2', // XRP-BNB
     },
     tokenSymbol: 'XRP',
     tokenAddresses: {
      97: '',
-     56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
+     56: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 20,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'DOT',
+    lpAddresses: {
+     97: '',
+      56: '0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c', // DOT-BNB
+    },
+    tokenSymbol: 'DOT',
+    tokenAddresses: {
+     97: '',
+     56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
    },
    quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
