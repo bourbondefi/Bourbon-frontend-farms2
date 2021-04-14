@@ -296,12 +296,12 @@ const farms: FarmConfig[] = [
     pid: 18,
     risk: 3,
     isTokenOnly: true,
-    lpSymbol: 'ADA',
+    lpSymbol: 'CARDANO',
     lpAddresses: {
      97: '',
-      56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47', // ADA
+      56: '0xba51d1ab95756ca4eab8737ecd450cd8f05384cf', // ADA-BNB
     },
-    tokenSymbol: 'ADA',
+    tokenSymbol: 'CARDANO',
     tokenAddresses: {
      97: '',
      56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
