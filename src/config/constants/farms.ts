@@ -263,12 +263,12 @@ const farms: FarmConfig[] = [
   {
     pid: 16,
     risk: 3,
-    lpSymbol: 'RBT-ELGD LP',
+    lpSymbol: 'RBT-EGLD LP',
     lpAddresses: {
      97: '',
-      56: '0x08a0960405dbb44b38d1b8f34fb802ec601af63b', // RBT-ELGD LP
+      56: '0x08a0960405dbb44b38d1b8f34fb802ec601af63b', // RBT-EGLD LP
     },
-    tokenSymbol: 'ELGD',
+    tokenSymbol: 'EGLD',
     tokenAddresses: {
      97: '',
      56: '0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe',
@@ -291,6 +291,23 @@ const farms: FarmConfig[] = [
    },
    quoteTokenSymbol: QuoteToken.RBT,
     quoteTokenAdresses: contracts.rbt,
+  },
+  {
+    pid: 18,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'ADA',
+    lpAddresses: {
+     97: '',
+      56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47', // ADA
+    },
+    tokenSymbol: 'ADA',
+    tokenAddresses: {
+     97: '',
+     56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
+   },
+   quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
 ]
 
