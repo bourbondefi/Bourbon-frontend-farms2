@@ -3,6 +3,22 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
+    pid: 21,
+    risk: 3,
+    lpSymbol: 'TSB-BNB',
+    lpAddresses: {
+      97: '',
+      56: '0x14f18e33c9e4551578cc4ce5243184288f13fe67', // TSB-BNB LP
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 0,
     risk: 5,
     lpSymbol: 'RBT-BRRL LP',
