@@ -3,6 +3,40 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
+    pid: 23,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'TSB',
+    lpAddresses: {
+      97: '',
+      56: '0xe336b16B7d26B94F3E86Fe124Be5207162C22d90',
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 22,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'RBT',
+    lpAddresses: {
+      97: '',
+      56: '0x6392aC63A851497Fc1F86946923a365162518E30',
+    },
+    tokenSymbol: 'RBT',
+    tokenAddresses: {
+      97: '',
+      56: '0x7595bb34bf391c3de0a6878a36d06223b2bfd404',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 21,
     risk: 3,
     lpSymbol: 'TSB-BNB',
