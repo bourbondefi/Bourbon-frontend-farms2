@@ -1896,7 +1896,7 @@
 
 "@pancakeswap-libs/uikit@bourbondefi/bourbon-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/bourbondefi/bourbon-uikit/tar.gz/9a656b48cdb26e415e9bbbb3c92b717d8ec2e77e"
+  resolved "https://codeload.github.com/bourbondefi/bourbon-uikit/tar.gz/0441d8d98ef7a71d8c7c4a2566a809f5b6f886dd"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
